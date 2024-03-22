@@ -18,6 +18,7 @@ The transition picks the token based on the following:
 Every transition has 1 of the four algorithms and the policy of scheduling is defined in the
 XML file
 Example of an XML file that defines the Petrinet:
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Petrinet>
 <Token>
@@ -153,7 +154,7 @@ Example of an XML file that defines the Petrinet:
 <Direction>output</Direction>
 </Topology>
 </Petrinet>
-
+```
  ![image](/images/1.png)
 ![image](/images/2.png)
 ![image](/images/3.png)
